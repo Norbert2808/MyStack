@@ -10,6 +10,7 @@ int main()
 	my.push(2);
 	my.push(5);
 	my.push(3);
+	cout << "It's my stack:\n";
 	my.print();
 	my.pop();
 	cout << my.top() << endl;
